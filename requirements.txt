@@ -10,8 +10,6 @@ streamlit-webrtc>=0.45.0,<0.48.0
 # av is commented out as it requires pkg-config for building
 # av>=10.0.0,<11.0.0
 scikit-learn>=1.2.0,<1.4.0
-# TensorFlow is commented out as it doesn't support Python 3.12 yet
-# Use one of these alternatives instead:
-tensorflow-cpu-aws>=2.13.0
-# OR
-# torch>=2.1.0
+# Machine learning frameworks that support Python 3.12
+torch>=2.1.0
+torchvision>=0.16.0
